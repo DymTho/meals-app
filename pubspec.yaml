@@ -35,6 +35,18 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
 
+  # State management: shares favorites, filters and the selected theme with
+  # every screen without passing them down manually (ChangeNotifierProvider).
+  provider: ^6.1.2
+  # Custom Google Fonts typography (Lato for body text, Playfair Display
+  # for headings) without bundling font files ourselves.
+  google_fonts: ^6.2.1
+  # Persists favorites and the selected theme on the device across restarts.
+  shared_preferences: ^2.3.3
+  # Loads meal photos from Unsplash URLs with caching, a placeholder while
+  # loading and graceful handling of failed loads (no internet, bad URL).
+  cached_network_image: ^3.4.1
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
